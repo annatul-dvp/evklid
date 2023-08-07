@@ -1,0 +1,111 @@
+.accordion .ui-state-default {
+	border: none;
+	background: none;
+	font-weight: 400;
+}
+
+.accordion .ui-state-active {
+	color: var(--color-dark-grey);
+}
+
+.accordion .ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+	border: none;
+}
+
+.accordion .ui-widgrt-content {
+	border: none;
+	color: var(--color-dark-grey);
+	background: none;
+}
+
+.accordion .ui-accordion-header {
+	position: relative;
+	padding: 0px 0px;
+}
+.accordion .ui-accordion-header-icon {
+	content: '';
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	transform: translateY(-5px);
+	display: inline-block;
+	width: 50px;
+  height: 50px;
+	background: url(/img/icons/plus.svg) 50% 50% no-repeat;
+}
+
+.accordion .ui-state-hover .ui-accordion-header-icon, .accordion .ui-state-focus .ui-accordion-header-icon {
+	background-image: url(/img/icons/plus-orange.svg);
+}
+
+.main-questions__item:hover .ui-accordion-header-icon{
+	background-image: url(/img/icons/plus-orange.svg);
+}
+
+.main-questions__item:hover .ui-accordion-header-active .main-questions-item__text{
+	color: var(--color-dark-grey);
+}
+
+.accordion .ui-accordion-header-active .ui-accordion-header-icon {
+	background-image: url(/img/icons/plus-active.svg);
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+	color: var(--color-orange);
+	border: none;
+	background: none;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus{
+	color: var(--color-orange);
+	border: none;
+	background: none;
+}
+
+
+@media (max-width: 768px){
+	.accordion .ui-accordion-header {
+		padding-right: 100px;
+	}
+
+	.accordion .main-questions__item:nth-child(odd) .ui-accordion-header-icon{
+		transform: translateY(5px);
+	}
+
+	.accordion .main-questions__item:nth-child(even) .ui-accordion-header-icon{
+		transform: translateY(10px);
+	}
+
+	.accordion .main-questions__item:first-child .ui-accordion-header-icon{
+		transform: translateY(-5px);
+	}
+}
+
+@media (max-width: 320px){
+	.accordion .ui-accordion-header {
+		padding-right: 52px;
+	}
+
+	.accordion .ui-accordion-header-icon {
+		width: 30px;
+		height: 30px;
+		background: url(/img/icons/plus-320.svg) 50% 50% no-repeat;
+	}
+
+	.accordion .main-questions__item:nth-child(even) .ui-accordion-header-icon {
+    transform: translateY(24px);
+}
+
+	.accordion .main-questions__item:nth-child(odd) .ui-accordion-header-icon{
+		transform: translateY(24px);
+	}
+
+	.accordion .main-questions__item:last-child .ui-accordion-header-icon{
+		transform: translateY(14px);
+	}
+
+	.accordion .main-questions__item:first-child .ui-accordion-header-icon{
+		transform: translateY(14px);
+	}
+
+}
