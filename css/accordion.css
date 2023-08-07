@@ -31,15 +31,15 @@
 	display: inline-block;
 	width: 50px;
   height: 50px;
-	background: url(/img/icons/plus.svg) 50% 50% no-repeat;
+	background: url('../img/icons/plus.svg') 50% 50% no-repeat;
 }
 
 .accordion .ui-state-hover .ui-accordion-header-icon, .accordion .ui-state-focus .ui-accordion-header-icon {
-	background-image: url(/img/icons/plus-orange.svg);
+	background-image: url('../img/icons/plus-orange.svg');
 }
 
 .main-questions__item:hover .ui-accordion-header-icon{
-	background-image: url(/img/icons/plus-orange.svg);
+	background-image: url('../img/icons/plus-orange.svg');
 }
 
 .main-questions__item:hover .ui-accordion-header-active .main-questions-item__text{
@@ -47,7 +47,7 @@
 }
 
 .accordion .ui-accordion-header-active .ui-accordion-header-icon {
-	background-image: url(/img/icons/plus-active.svg);
+	background-image: url('../img/icons/plus-active.svg');
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
@@ -89,7 +89,7 @@
 	.accordion .ui-accordion-header-icon {
 		width: 30px;
 		height: 30px;
-		background: url(/img/icons/plus-320.svg) 50% 50% no-repeat;
+		background: url('../img/icons/plus-320.svg') 50% 50% no-repeat;
 	}
 
 	.accordion .main-questions__item:nth-child(even) .ui-accordion-header-icon {
