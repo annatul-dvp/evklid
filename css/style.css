@@ -378,17 +378,17 @@ img{
   z-index: -1;
 }
 .swiper-slide-backround-1{
-  background-image: url('img/advertising/ad_pic_1.webp');
+  background-image: url('../img/advertising/ad_pic_1.webp');
   background-repeat: no-repeat;
   background-size: contain;
 }
 .swiper-slide-backround-2{
-  background-image: url('img/advertising/ad_pic_2.webp');
+  background-image: url('../img/advertising/ad_pic_2.webp');
   background-repeat: no-repeat;
   background-size: contain;
 }
 .swiper-slide-backround-3{
-  background-image: url('img/advertising/ad_pic_3.webp');
+  background-image: url('../img/advertising/ad_pic_3.webp');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -463,7 +463,7 @@ img{
   margin-left: 5px;
   margin-right: 5px;
   padding-left: 16px;
-  background-image: url('img/i-symbol.svg');
+  background-image: url('../img/i-symbol.svg');
   background-repeat: no-repeat;
   background-size: contain;
   display: none;
@@ -491,7 +491,7 @@ img{
 }
 
 .main-about-us-inf-blocks__main-item{
-  background-image: url('img/working-man.webp');
+  background-image: url('../img/working-man.webp');
   height: 622px;
 }
 
@@ -706,19 +706,19 @@ img{
 }
 
 .main-works-steps-block-img__tab1{
-  background-image: url('img/work-steps/works-step_1.webp');
+  background-image: url('../img/work-steps/works-step_1.webp');
 }
 
 .main-works-steps-block-img__tab2{
-  background-image: url('img/work-steps/works-step_2.webp');
+  background-image: url('../img/work-steps/works-step_2.webp');
 }
 
 .main-works-steps-block-img__tab3{
-  background-image: url('img/work-steps/works-step_3.webp');
+  background-image: url('../img/work-steps/works-step_3.webp');
 }
 
 .main-works-steps-block-img__tab4{
-  background-image: url('img/work-steps/works-step_4.webp');
+  background-image: url('../img/work-steps/works-step_4.webp');
 }
 
 /*Work steps. Табы*/
@@ -1191,7 +1191,7 @@ margin-top: 95px;
 
    /*Advertising 1024*/
   .main-advertising__container{
-    background-image: url('img/advertising/ad_pic_1\ -1024.webp');
+    background-image: url('../img/advertising/ad_pic_1\ -1024.webp');
     height: 668px;
     background-size:cover;
   }
@@ -1284,7 +1284,7 @@ margin-top: 95px;
 
   .main-about-us-inf-blocks__main-item{
     height: 640px;
-    background-image: url('img/working-man-1024.webp');
+    background-image: url('../img/working-man-1024.webp');
   }
 
   .main-about-us-inf-blocks-item-img__svg-1920, .main-about-us-inf-blocks-item-img__svg-768, .main-about-us-inf-blocks-item-img__svg-320{
@@ -1335,7 +1335,7 @@ margin-top: 95px;
   .main-works-steps-block__right{
     width: 439px;
     height: 689px;
-    background-image: url('img/work-steps/works-step_1-1024.webp');
+    background-image: url('../img/work-steps/works-step_1-1024.webp');
     background-size:cover;
     margin-left: 0px;
     margin-top: 11px;
@@ -1519,7 +1519,7 @@ margin-top: 95px;
 
   /*Advertising 768*/
   .main-advertising__container{
-    background-image: url('img/advertising/ad_pic_1\ -768.webp');
+    background-image: url('../img/advertising/ad_pic_1\ -768.webp');
     height: 662px;;
   }
 
@@ -1587,7 +1587,7 @@ margin-top: 95px;
   }
 
   .main-about-us-inf-blocks__main-item{
-    height: 650px;    background-image: url('img/working-man-768.webp');
+    height: 650px;    background-image: url('../img/working-man-768.webp');
   }
 
   .main-about-us-inf-blocks-main-item-desc-block__text{
@@ -1659,7 +1659,7 @@ margin-top: 95px;
   .main-works-steps-block__right{
     width: 100%;
     height: 284px;
-    background-image: url('img/work-steps/works-step_1-768.webp');
+    background-image: url('../img/work-steps/works-step_1-768.webp');
     background-size:cover;
     margin-left: 0px;
     margin-top: 10px;
@@ -1804,7 +1804,7 @@ margin-top: 95px;
   /*Advertising 320*/
   .main-advertising__container{
     position: relative;
-    background-image: url('img/advertising/ad_pic_1\ -320.webp');
+    background-image: url('../img/advertising/ad_pic_1\ -320.webp');
     height: 308px;
   }
 
@@ -1960,7 +1960,7 @@ margin-top: 95px;
 
   .main-works-steps-block__right{
     height: 160px;
-    background-image: url('img/work-steps/works-step_1-320.webp');
+    background-image: url('../img/work-steps/works-step_1-320.webp');
     margin-top: 0px;
   }
 
